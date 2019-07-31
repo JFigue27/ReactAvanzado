@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { fadeIn } from '../Styles/animation';
+import { fadeIn } from '../../Styles/animation';
 
 export const ImageWrapper = styled.div`
   border-radius: 10px;
