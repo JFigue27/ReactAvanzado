@@ -31,7 +31,7 @@ export const ListOfCategories = () => {
   );
 
   const renderList = fixed => (
-    <List className={fixed ? 'fixed' : ''}>
+    <List fixed={fixed}>
       {categories.map(category => (
         <Item key={category.id}>
           <Category {...category} />
